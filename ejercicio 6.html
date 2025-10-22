@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartelera de Películas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .thumbnails {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .thumbnails a img {
+            width: 100px;
+            height: auto;
+            cursor: pointer;
+            border: 2px solid #ccc;
+        }
+
+        .pelicula {
+            margin-bottom: 50px;
+        }
+
+        .pelicula img {
+            width: 300px;
+            height: auto;
+            display: block;
+        }
+
+        .pelicula p {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CARTELERA</h1>
+
+    <div class="thumbnails">
+        <a href="#pelicula1">
+            <img src="superman.jpg" alt="Superman">
+        </a>
+        <a href="#pelicula2">
+            <img src="F1.jpg" alt="F1. La Pelicula">
+        </a>
+        <a href="#pelicula3">
+            <img src="Fast_Furious.jpg" alt="Fast and Furious X">
+        </a>
+    </div>
+
+    <div class="pelicula" id="pelicula1">
+        <h2>Superman</h2>
+        <img src="superman.jpg" alt="Superman">
+        <p>Sinopsis
+En un mundo cínico que ha perdido la fe en la bondad, Superman lucha por reconciliar su herencia kryptoniana con su crianza humana en Smallville como Clark Kent. Mientras protege a la humanidad, encarna la verdad, la justicia y el estilo americano, desafiando una era que considera estos valores obsoletos. Reinicio del universo DC en cine bajo la supervisión y dirección de James Gunn.
+</p>
+    </div>
+
+    <div class="pelicula" id="pelicula2">
+        <h2>F1. La Pelicula</h2>
+        <img src="F1.jpg" alt="F1. La Pelicula">
+        <p>Sinopsis
+Sonny Hayes fue el fenómeno más prometedor de la Fórmula 1 en la década de 1990, hasta que un accidente en la pista acabó prácticamente con su carrera. Treinta años después es un piloto nómada a sueldo al que contacta su antiguo compañero de equipo, Rubén Cervantes, propietario de un equipo de Fórmula 1 al borde de la quiebra. Rubén convence a Sonny para volver a la categoría reina del automovilismo y tener una última oportunidad para salvar al equipo. Su compañero será el novato Joshua Pearce, el piloto estrella del equipo, que está decidido a imponer su propio ritmo.</p>
+    </div>
+
+    <div class="pelicula" id="pelicula3">
+        <h2>Fast and Furious X</h2>
+        <img src="Fast_Furious.jpg" alt="Fast and Furious X">
+        <p>Sinopsis
+Con Dom y Letty de luna de miel, Brian y Mia fuera del juego y el resto de la pandilla exonerada de todo cargo, el equipo está instalado en una vida aparentemente normal. Pero cuando una misteriosa mujer (Theron) seduce a Dom (Diesel) para regresar nuevamente al mundo del crimen, se ve incapaz de rechazar la oportunidad, traicionando así a todo el mundo cercano a él. A partir de ese momento todos se enfrentarán a pruebas como nunca antes habían tenido. Desde las costas de Cuba y las calles de Nueva York hasta las llanuras del mar de Barents en el océano Ártico, nuestra fuerza de élite recorrerá el globo para impedir que un anarquista desencadene el caos en el mundo... y por supuesto para traer de vuelta a casa al hombre que les hizo una familia.</p>
+    </div>
+
+</body>
+</html>
