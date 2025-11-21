@@ -1,0 +1,36 @@
+nav {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 2);
+    padding: 1px;
+    background-image:url("frijoles.jpg")  ;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+
+    
+}
+
+nav h1 {
+    color: white;
+    padding-left: 15px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 5px;
+   
+}
+.nav-list li a:hover {
+    color: black;
+}
